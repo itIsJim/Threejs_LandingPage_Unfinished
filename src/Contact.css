@@ -1,0 +1,44 @@
+
+
+::placeholder {
+    color: #ffffff;
+}
+
+.card-contact {
+    border: 5px solid #ffffff;
+    padding: 25px;
+    height: 35vh;
+    width: 45vw;
+}
+
+#form-textarea1 {
+    height: 15vh;
+    max-height: 18vh;
+    min-height: 15vh;
+    width: 45vw;
+    max-width: 44.5vw;
+    min-width: 40vw;
+    color: #7A7755;
+    font-size: 20px;
+}
+.form-input-bottom {
+    color: #7A7755;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1.5pt solid #ffffff;
+}
+
+.form-input-textarea {
+    color: #7A7755;
+    outline: 0;
+    background: transparent;
+    border: 1.5pt solid #ffffff;
+}
+
+.form-button {
+    color: #ffffff;
+    outline: 0;
+    background: transparent;
+    border: 1.5pt solid #ffffff;
+}

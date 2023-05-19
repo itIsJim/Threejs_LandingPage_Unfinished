@@ -1,0 +1,53 @@
+body {
+  margin:0;
+  padding: 0;
+}
+
+#world {
+  width: 100vw;
+  height: 300vh;
+  /*overflow: hidden;*/
+  background: linear-gradient(to right bottom, #d0cca7, #d6cea5, #dccfa2, #e3d1a0, #ead29e, #efd4a2, #f3d5a7, #f7d7ab, #f8dab6, #f8dec1, #f7e1cb, #f6e5d6);/*linear-gradient(#e4e0ba, #f7d9aa)*/
+  /*background-size: 150% 110%;*/
+  animation: Gradient 8s ease-in-out infinite;
+  position: fixed;
+}
+
+#root{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.App-container {
+  height: 600vh;
+  width: 100vw;
+  position: absolute;
+  overflow: scroll;
+}
+
+.App-content {
+  color: #ffffff;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  /*white-space: nowrap;*/
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: #f8fff5;
+}
+
+
+
